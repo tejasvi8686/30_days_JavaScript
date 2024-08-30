@@ -51,3 +51,16 @@ console.log(`The value is ${val1}`);
 
 val1 = 2;
 console.log(`The value is ${val1}`);
+
+
+//Task_6 - Try reassigning a variable declared with 'const' and observe the error;
+
+const vam = 29;
+console.log(`The vam of the value is ${vam}`);
+
+// vam = 30 this error will throw TypeError: Assignment to constant variable.
+// console.log(`The vam of the value is ${vam}`);
+
+
+
+
