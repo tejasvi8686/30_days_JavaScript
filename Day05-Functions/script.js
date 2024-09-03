@@ -56,17 +56,25 @@ console.log(str("tejasvi", "t"));
 
 //Task-7 : Write a function that takes two parameters and return their product. Provide a default value for the second parameter.
 
-function product(a, b=10) {
-    return a*b;
+function product(a, b = 10) {
+  return a * b;
 }
 
 console.log(product(10, 20));
 console.log(product(10));
 
-
 //Task-8 : Write a function that takes a person's name and age and returns a greeting message.Provide a default value for the age
 
+let greet = function greeting(name, age = 18) {
+  return `Hello my name is ${name} and my age is ${age} `;
+};
 
+console.log(greet("tejasvi"));
 
 //Task-9 : Write a higher-order functions that takes a function and a number, and calls the function that many times.
+
+
+
 //Task-10 : Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
+
+
