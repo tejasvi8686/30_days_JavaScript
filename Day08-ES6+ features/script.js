@@ -45,7 +45,7 @@ const vegitable2 = ["beans", "carrot", "cucmbuer", "ladyfinger"];
 const both = [...fruit1, ...vegitable2];
 
 console.log(both);
-
+ 
 
 //Task-6 : Use the rest operator in a function to accept an arbitrary number of arguments, sum them, and return the result.
 
